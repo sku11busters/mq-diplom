@@ -9,10 +9,11 @@
 <body>
   <div class="popup-fade visually-hidden">
     <div class="popup">
-      <div class="close">
+      <button type="button" class="close">
+        <span class="visually-hidden">Закрыть</span>
         <div class="close-line close-first"></div>
         <div class="close-line close-second"></div>
-      </div>
+      </button>
       <h2 class="popup-title">Ваш фидбeк</h2>
       <form class="popup-form">
         <label class="popup-select-wrap">
@@ -55,11 +56,12 @@
               <li class="menu-item"><a href="#">Темы</a></li>
               <li class="menu-item"><a href="#">Контакты</a></li>
             </ul>
-            <div class="burger-menu">
+            <button type="button" class="burger-menu">
+              <span class="visually-hidden">Меню</span>
               <div class="burger-item"></div>
               <div class="burger-item"></div>
               <div class="burger-item"></div>
-            </div>
+            </button>
           </div>
           <h1 class="header-desc">
             Блог о творчестве, спорте, и образе жизни
@@ -195,23 +197,6 @@
                 </div>
               </div>
             </article>
-            <!-- <article class="card">
-              <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg" alt="Mountains" class="card-pic">
-              <div class="card-content">
-                <ul class="card-theme">
-                  <li class="card-theme-link"><a href="#!">Travel</a></li>
-                  <li class="card-theme-link"><a href="#!">Lifestyle</a></li>
-                </ul>
-                <h2 class="card-title"><a href="#!">Как первый раз отправиться в горы?</a></h2>
-                <div class="published">
-                  <time class="card-date">10 июня 2019</time>
-                  <address class="card-author">Неизвестный автор</address>
-                </div>
-                <div class="card-desc">
-                  <p>Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это зависит от многих факторов, не только от ваших желаний и интересов.</p>
-                </div>
-              </div>
-            </article> -->
           </main>
           <aside class="aside">
             <section class="news">
@@ -223,7 +208,7 @@
                   </div>
                   <div class="news-content">
                     <span class="news-date">14 июня 2019</span>
-                    <a href="#!" class="news-name">10 мест, ради которых стоит проснуться</a>
+                    <h2 class="news-name"><a href="#!">10 мест, ради которых стоит проснуться</a></h2>
                   </div>
                 </article>
                 <article class="news-card">
@@ -232,7 +217,7 @@
                   </div>
                   <div class="news-content">
                     <span class="news-date">14 июня 2019</span>
-                    <a href="#!" class="news-name">Йога для домашних</a>
+                    <h2 class="news-name"></h2><a href="#!" class="news-name">Йога для домашних</a></h2>
                   </div>
                </article>
                 <article class="news-card">
@@ -241,7 +226,7 @@
                   </div>
                   <div class="news-content">
                     <span class="news-date">14 июня 2019</span>
-                    <a href="#!" class="news-name">Как мы превратили классное место в балкон</a>
+                    <h2 class="news-name"></h2><a href="#!" class="news-name">Как мы превратили классное место в балкон</a></h2>
                   </div>
                </article>
                 <article class="news-card">
@@ -250,7 +235,7 @@
                   </div>
                   <div class="news-content">
                     <span class="news-date">14 июня 2019</span>
-                    <a href="#!" class="news-name">Кулинарный подход к науке</a>
+                    <h2 class="news-name"></h2><a href="#!" class="news-name">Кулинарный подход к науке</a></h2>
                   </div>
                 </article>
                 <article class="news-card">
@@ -259,7 +244,7 @@
                   </div>
                   <div class="news-content">
                     <span class="news-date">14 июня 2019</span>
-                    <a href="#!" class="news-name">Лучшие прически для распущенных волос</a>
+                    <h2 class="news-name"></h2><a href="#!" class="news-name">Лучшие прически для распущенных волос</a></h2>
                   </div>
                 </article>
               </div>
@@ -342,8 +327,8 @@
             </p>
             <div class="buy">
               <div class="price">
-                <span class="old-price">1000 Р</span>
-                <span>800 Р</span>
+                <span class="old-price">1000 ₽</span>
+                <span>800 ₽</span>
               </div>
               <button type="button" class="store">В магазин</button>
             </div>
@@ -362,7 +347,7 @@
             </p>
             <div class="buy">
               <div class="price">
-                <span>3500 Р</span>
+                <span>3500 ₽</span>
               </div>
               <button type="button" class="store">В магазин</button>
             </div>
@@ -381,8 +366,8 @@
             </p>
             <div class="buy">
               <div class="price">
-                <span class="old-price">500 Р</span>
-                <span>400 Р</span>
+                <span class="old-price">500 ₽</span>
+                <span>400 ₽</span>
               </div>
               <button type="button" class="store">В магазин</button>
             </div>
