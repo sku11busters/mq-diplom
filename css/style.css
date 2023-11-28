@@ -38,6 +38,8 @@ a {
 
 /*-----------------------------Popup start-----------------------------*/
 .close {
+  background: none;
+  border: none;
   position: absolute;
   top: -27px;
   right: 0;
@@ -268,6 +270,8 @@ a {
 }
 
 .burger-menu {
+  background: none;
+  border: none;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -359,6 +363,7 @@ a {
 }
 
 .trend-card-desc {
+  width: 100%;
   padding: 30px;
   border: 3px solid rgba(181, 159, 91, 0.5);
   z-index: 2;
@@ -394,15 +399,11 @@ a {
 
 .card {
   display: flex;
+  align-items: flex-start;
 }
 
 .card:not(:last-child) {
   margin-bottom: 60px;
-}
-
-.card-pic {
-  /* min-width: 381px; */
-  min-height: 294px;
 }
 
 .card-content {
@@ -457,8 +458,6 @@ a {
 }
 
 .card-desc {
-  /* min-width: 367px; */
-  min-height: 62px;
   font-size: 15px;
   color: #0f0d0e;
 }
@@ -555,7 +554,7 @@ a {
 .news-field {
   width: 222px;
   height: 48px;
-  padding-left: 18px;
+  padding: 0 18px;
   background-color: #f4f7f6;
   border: none;
 }
@@ -590,7 +589,7 @@ a {
   height: 48px;
   border: none;
   background-color: #f4f7f6;
-  padding-left: 18px;
+  padding: 0 18px;
   outline: none;
   margin-bottom: 17px;
 }
